@@ -1,19 +1,25 @@
 /* unique color for each heading */
-h1 {
-	color: #ff0000;
+
+h1::before {
+    content: "H1: ";
 }
-h2 {
-	color: #906000;
+
+h2::before {
+    content: "H2: ";
 }
-h3 {
-	color: #0000ff;
+
+h3::before {
+    content: "H3: ";
 }
-h4 {
-	color: #00ff00;
+
+h4::before {
+    content: "H4: ";
 }
-h5 {
-	color: #ff00ff;
+
+h5::before {
+    content: "H5: ";
 }
-h6 {
-	color: #000000;
+
+h6::before {
+    content: "H6: ";
 }
