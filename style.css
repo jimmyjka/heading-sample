@@ -1,0 +1,19 @@
+/* unique color for each heading */
+h1 {
+	color: #ff0000;
+}
+h2 {
+	color: #906000;
+}
+h3 {
+	color: #0000ff;
+}
+h4 {
+	color: #00ff00;
+}
+h5 {
+	color: #ff00ff;
+}
+h6 {
+	color: #000000;
+}
